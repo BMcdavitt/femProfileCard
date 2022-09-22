@@ -1,0 +1,134 @@
+body {
+  background: #19a1ad;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: 'Kumbh Sans', sans-serif;
+
+  color: hsl(0, 0%, 59%);
+
+  overflow: hidden;
+}
+
+.topBackgroundImage {
+  position: absolute;
+  right: 50%;
+  bottom: 25%;
+}
+
+.bottomBackgroundImage {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+div {
+  position: relative;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-radius: 0.75rem;
+  background-color: #fff;
+  width: 20rem;
+  height: 24rem;
+}
+
+.cardTopBackground {
+  width: 20rem;
+  height: 8.75rem;
+  border-radius: 0.75rem 0.75rem 0 0;
+}
+
+.profilePicture {
+  position: absolute;
+  top: 5.5rem;
+
+  border: 0.25rem solid #fff;
+  border-radius: 50%;
+  width: 6.25rem;
+}
+
+.nameage {
+  position: absolute;
+  top: 13.125rem;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.name {
+  font-weight: 700;
+  margin-right: 0.5rem;
+
+  color: hsl(229, 23%, 23%);
+}
+
+.location {
+  position: absolute;
+  top: 14.25rem;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+.cardDivider {
+  position: absolute;
+  top: 17.5rem;
+  border: solid hsl(0, 0%, 59%);
+  border-width: 1px 0 0 0;
+
+  width: 100%;
+}
+
+.deets {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+
+  position: absolute;
+  top: 19.375rem;
+}
+
+.deet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deetStat {
+    font-weight: 700;
+    color:hsl(229, 23%, 23%);
+}
+
+.deetTitle {
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  bottom: 10%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1439px) {
+    .card {
+        width: 21.875rem;
+    }
+
+    .cardTopBackground {
+        width: 21.875rem;
+    }
+}
